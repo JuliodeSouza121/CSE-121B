@@ -1,0 +1,71 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #613a3a;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="checkbox"],
+button {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.password-display {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#passwordDisplay {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+#copyPasswordBtn {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#copyPasswordBtn:hover {
+    background-color: #45a049;
+}
